@@ -14,6 +14,10 @@ export class ValuesController {
     ProxyState.on('values', _draw)
   }
 
+  egg() {
+  window.confirm('This is an easter-egg, good find! Heres the link: shorturl.at/jxF16')
+  }
+
   addValue() {
     valuesService.addValue()
   }
